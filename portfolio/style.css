@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0%;
+    font-family: sans-serif;
+    box-sizing:border-box ;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%; 
+     background-color: black;
+    background-size: cover;
+    background-position: center;
+} 
+
+
+.logo{
+    color: white;
+    font: size 35px; 
+    letter-spacing: 1px;
+    cursor: pointer;
+    
+}
+span{
+    color: orchid;
+}
+ .content{
+    position: absolute;
+    left: 30%;
+    bottom: 50%;
+    transform: translate(-50%);
+ }
+ h1{
+    color: white;
+    margin: 50px 0px 20px;
+    font-size: 55px;
+    text-align: justify;
+ }
+ h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+ }
+ h4{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 100px;
+    
+ }
+ body{
+   background-color: black;
+ }
+
+
+ 
+.about .boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+ 
+}
+
+.about .boxes .box {
+  margin: 20px 0;
+  width: calc(100% / 3 - 20px);
+  text-align: center;
+  border-radius: 12px;
+  padding: 30px 10px;
+
+  cursor: default;
+  transition: all 0.4s ease;
+  color: #fff;
+background-color:peachpuff;
+}
+.about .boxes .box:hover {
+  background: teal;
+  color: #fff;
+}
+.anout-me{
+  color: white;
+  font-size: 75px;
+  margin: 30px auto;
+  text-align: center;
+}
+.about{
+  width: 100%;
+  padding:100px 0px; 
+ }  
+
+
+
+
+.services{
+ width: 100%;
+ padding:100px 0px; 
+}
+.title{
+  color: white;
+  font-size: 75px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.box-container{
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  padding: 20px 35px;
+  background: #191919;
+  border-radius:20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+.card i{
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: white;
+}
+
+h5{
+  color:paleturquoise;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.yahoo:hover{
+  color: white;
+  cursor: pointer;
+  transition: .2s;
+}
+
+
+
+.para{
+  color: white;
+  font-size: 16px;
+  line-height: 27px;
+  margin-bottom: 25px;
+
+}
+.button-2{
+  background-color: #f9004d;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 9px 30px;
+  border-radius:200px;
+  transition: .2s;
+  border-color: aliceblue;
+}
+.button-2:hover{
+ background-color: black;
+ border-color: aqua;
+ cursor: pointer;
+}
+.contact-me{
+  width:100%;
+  height: 290px;
+  background:black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.contact-me p{
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+footer{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background:black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p:nth-child(1){
+  font-size: 30px;
+  color: white;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+footer p:nth-child(2){
+  color: white;
+  font-size: 17px;
+  width: 500px;
+  text-align: center;
+  line-height: 26px;
+}
+.social{
+  display: flex;
+}
+.social a{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+.social a:hover{
+  transform: scale(1.3);
+  transition: .2s;
+  color: blue;
+
+}
+.end{
+  position:absolute ;
+  color: white;
+  bottom: 35px;
+  font-size: 14px;
+
+} 
+form{
+  color: #fff;
+  border-radius: 200px;
+  padding-top: 50px;
+}
+
+
+.button-3{
+  border-radius: 20px;
+  border-color: aquamarine;
+  color: black;
+  font-weight: bold;
+}
+
+.button-3:hover{
+  color:red
+}
+
+
+/* navbar styling */
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 20px 0;
+  transition: all 0.2s ease;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav .navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+nav .navbar .logo a {
+  font-weight: 500;
+  font-size: 35px;
+  color:white;
+}
+
+
+nav .navbar .menu {
+  display: flex;
+  position: relative;
+  
+}
+
+nav .navbar .menu li {
+  list-style: none;
+  margin: 0 8px;
+}
+
+.navbar .menu a {
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  padding: 6px 0;
+  transition: all 0.2s ease;
+
+}
+
+.navbar .menu a:hover {
+  color: rgb(128, 73, 0);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
