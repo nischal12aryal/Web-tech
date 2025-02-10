@@ -11,5 +11,7 @@ This program performs matrix multiplication using multithreading. It reads matri
 Task3
 Password Cracking using CUDA
 This program demonstrates password cracking using CUDA, where we utilize the power of GPU processing to efficiently crack encrypted passwords. The password cracking process is accelerated by running many threads on the GPU in parallel, which is suitable for breaking passwords with many possible combinations. The password will be decrypted using multiple blocks and threads, making the process much faster than a single-threaded CPU solution.
+
+Task 4
 Box Blur Using CUDA
 This program applies a Box Blur filter to an image using CUDA for parallel processing. The Box Blur filter smoothens the color distribution across the image by averaging the pixel values in a 3x3 neighborhood around each pixel. This program reads a PNG image, applies the Box Blur using GPU threads, and writes the blurred image back to a file.
